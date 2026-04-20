@@ -1,19 +1,28 @@
-# requisito-2026-unifor-individual
+# Sistema de Gestão Lan House – Andreia
 
+## 👤 Autor
 
-# Projeto Individual - GAC Unifor 2026
+* **Wesley Amorim Campêlo**
+* **Orientador:** Prof. Marcelo Bezerra
 
-## Sistema de Gestão da Andreia
+---
 
-Este projeto faz parte da disciplina de Requisitos e Modelagem de Sistemas.
+## 🚀 Visão Geral
 
-### 📁 Documentação
+Sistema focado na automatização do controle financeiro e de insumos para a Lan House da Andreia, substituindo anotações manuais por uma interface ágil e responsiva.
 
-* [Documento de Visão](./Documento_de_Visao.md)
-* [Especificação de Requisitos e Regras de Negócio](./Requisitos.md)
+## 📑 Documentação Completa
 
-### 🚀 Tecnologias
+* [Documento de Visão](./Documento_de_Visao.md): Detalhamento do problema, oportunidade e stakeholders.
+* [Especificação de Requisitos](./Requisitos.md): Lista completa de RFs, RNFs e Regras de Negócio.
 
-* Git & GitHub
-* VS Code
-* Markdown
+## 🛠 Principais Funcionalidades (Resumo)
+
+* **Gestão Financeira:** Registro de entradas (Pix, Dinheiro, Fiado) e cálculo de lucro líquido.
+* **Controle de Insumos:** Alertas de estoque de papel e manutenção de impressora.
+* **Acessibilidade:** Interface otimizada para uso em dispositivos móveis.
+
+## ⚖️ Regras Críticas
+
+1. O lucro é calculado subtraindo o custo dos materiais do valor da venda.
+2. Vendas a fiado bloqueiam novos créditos se houver pendências antigas.
